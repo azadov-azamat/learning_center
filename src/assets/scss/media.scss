@@ -7,22 +7,23 @@
     }
 
     .section_2 {
-      height: 90vh;
+      height: 100vh;
     }
 
     .section_3 {
-      .image {
-        .img1-block {
-          //img {
-          //  width: 688px !important;
-          //  opacity: 1;
-          //}
-        }
-      }
+      z-index: 1000;
+      height: 180vh;
       .text{
         h2{
-          width: 50ch;
+          width: 16ch;
+          //border: 1px solid;
         }
+      }
+    }
+
+    .section_4{
+      .stat-heading {
+        font-size: 38px !important;
       }
     }
   }
@@ -108,6 +109,14 @@
           text-align: center;
         }
       }
+    }
+  }
+
+  .section_4{
+    .stat-heading {
+      max-width: 135px !important;
+      margin-bottom: 12px !important;
+      font-size: 20px !important;
     }
   }
 }

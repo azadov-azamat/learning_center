@@ -5,7 +5,7 @@ export default () => {
     return (
         <div className={"learning_skills section_3"}>
             <Container fluid>
-                <Row>
+                <Row className={""}>
                     <Col className={"image"}>
                         <div className="img img1-block">
                             <img
