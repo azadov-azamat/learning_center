@@ -1,6 +1,7 @@
-import React from "react";
-import NavbarJs from "../NavbarJs";
-import Header_ from "../Header_";
+import React from "react"
+import NavbarJs from "../NavbarJs"
+import Header_ from "../Header_"
+import Learning_skills from "../Learning_skills"
 
 export default function HomePage() {
 
@@ -8,16 +9,7 @@ export default function HomePage() {
         <>
             <NavbarJs/>
             <Header_/>
-            {/*<Container style={{width: "970px", marginBottom: '5vh'}}>*/}
-            {/*    <Row>*/}
-            {/*        <Col md={8}>*/}
-            {/*            <NewsLetterJs/>*/}
-            {/*        </Col>*/}
-            {/*        <Col md={4}>*/}
-            {/*           <AccountUser/>*/}
-            {/*        </Col>*/}
-            {/*    </Row>*/}
-            {/*</Container>*/}
+            <Learning_skills/>
         </>
     )
 }

@@ -8,7 +8,7 @@ export default function NavbarJs() {
     const toggle = () => setIsOpen(!isOpen)
 
     return (
-        <div className={"navbarIN"}>
+        <div className={"navbarIN section_1"}>
             <Container fluid className={"containerMy zindex-1 d-flex justify-content-between align-items-center"}>
                 <Link to={"/home"} className="system_logo">
                     <img

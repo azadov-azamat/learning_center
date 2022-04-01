@@ -5,6 +5,7 @@ import {ToastContainer} from "react-toastify";
 import {BrowserRouter} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/scss/main.scss';
+import './assets/scss/media.scss';
 
 const app = (
     <>

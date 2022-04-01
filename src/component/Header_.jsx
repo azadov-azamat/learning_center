@@ -1,12 +1,12 @@
 import React from "react"
 import {Button, Col, Container, Row} from "reactstrap";
 
-export default () => {
+export default  () => {
     return (
-        <>
+        <div className={"section_2"}>
             <Container>
                 <Row>
-                    <Col md={6} sm={12}>
+                    <Col>
                         <div className="block1">
                             <h1>Turning dreams into reality!</h1>
                             <p>
@@ -17,6 +17,6 @@ export default () => {
                     </Col>
                 </Row>
             </Container>
-        </>
+        </div>
     )
 }

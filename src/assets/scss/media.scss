@@ -1,0 +1,157 @@
+@media (max-width: 991px) {
+  body {
+    background-position-y: 10vh;
+
+    h1 {
+      font-size: 56px;
+    }
+
+    .section_2 {
+      height: 90vh;
+    }
+
+    .section_3 {
+      .image {
+        .img1-block {
+          //img {
+          //  width: 688px !important;
+          //  opacity: 1;
+          //}
+        }
+      }
+      .text{
+        h2{
+          width: 50ch;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  body {
+    background-position-y: 25ch;
+
+    .navbarIN {
+      .container-fluid {
+        margin-left: 0;
+        margin-right: 0;
+
+        ul {
+          gap: 0;
+          list-style: none;
+        }
+      }
+    }
+
+    .section_2 {
+      height: 97vh;
+    }
+
+    .section_3 {
+      .image {
+        .img1-block {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .block1 {
+      margin-top: 0;
+      clear: both;
+
+      h1 {
+        letter-spacing: 6px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+  }
+
+  .section_2 {
+    height: 97vh;
+  }
+
+  .section_3 {
+    .image {
+      .img1-block {
+        img {
+          width: 77ch;
+        }
+      }
+    }
+
+    .text {
+      margin-top: 12px;
+
+      h2 {
+        width: 77ch;
+      }
+
+      p {
+        width: 40ch;
+      }
+
+      .list-tag-1 {
+        flex-direction: initial;
+
+        .tag-2 {
+          padding: 10px 40px;
+          margin-left: 5px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 620px) {
+
+  .section_2 {
+    height: 80vh !important;
+  }
+
+  .section_3 {
+    .text {
+      margin-top: 12px;
+
+      h2 {
+        width: 14ch;
+      }
+       p {
+        width: 30ch;
+      }
+
+
+      .list-tag-1 {
+        flex-direction: column;
+
+        .tag-2 {
+          padding: 14px 16px;
+        }
+      }
+    }
+  }
+
+  .block1 {
+    margin-top: 0;
+    clear: both;
+
+    h1 {
+      font-size: 40px;
+    }
+
+    .button-2 {
+      padding: 8px 16px;
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+}
